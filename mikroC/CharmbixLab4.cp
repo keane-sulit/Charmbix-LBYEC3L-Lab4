@@ -5,39 +5,71 @@ void main() {
  while(1)
  {
 
- PORTB = 0x01;
- delay_ms(250);
- PORTB = 0x05;
- delay_ms(250);
- PORTB = 0x15;
- delay_ms(250);
- PORTB = 0x55;
- delay_ms(250);
- PORTB = 0x54;
- delay_ms(250);
- PORTB = 0x50;
- delay_ms(250);
- PORTB = 0x40;
- delay_ms(250);
- PORTB = 0x00;
- delay_ms(250);
-
- PORTB = 0x02;
- delay_ms(250);
+ PORTB = 0x3F;
+ delay_ms(1000);
  PORTB = 0x06;
- delay_ms(250);
- PORTB = 0x16;
- delay_ms(250);
- PORTB = 0x56;
- delay_ms(250);
- PORTB = 0x52;
- delay_ms(250);
- PORTB = 0x42;
- delay_ms(250);
- PORTB = 0x02;
- delay_ms(250);
+ delay_ms(1000);
+ PORTB = 0x5B;
+ delay_ms(1000);
+ PORTB = 0x4F;
+ delay_ms(1000);
+ PORTB = 0x66;
+ delay_ms(1000);
+ PORTB = 0x6D;
+ delay_ms(1000);
+ PORTB = 0x7D;
+ delay_ms(1000);
+ PORTB = 0x07;
+ delay_ms(1000);
+ PORTB = 0x7F;
+ delay_ms(1000);
+ PORTB = 0x6F;
+ delay_ms(1000);
+ PORTB = 0x77;
+ delay_ms(1000);
+ PORTB = 0x7C;
+ delay_ms(1000);
+ PORTB = 0x39;
+ delay_ms(1000);
+ PORTB = 0x5E;
+ delay_ms(1000);
+ PORTB = 0x79;
+ delay_ms(1000);
+ PORTB = 0x71;
+ delay_ms(1000);
 
-
+ PORTB = 0x71;
+ delay_ms(1000);
+ PORTB = 0x79;
+ delay_ms(1000);
+ PORTB = 0x5E;
+ delay_ms(1000);
+ PORTB = 0x39;
+ delay_ms(1000);
+ PORTB = 0x7C;
+ delay_ms(1000);
+ PORTB = 0x77;
+ delay_ms(1000);
+ PORTB = 0x6F;
+ delay_ms(1000);
+ PORTB = 0x7F;
+ delay_ms(1000);
+ PORTB = 0x07;
+ delay_ms(1000);
+ PORTB = 0x7D;
+ delay_ms(1000);
+ PORTB = 0x6D;
+ delay_ms(1000);
+ PORTB = 0x66;
+ delay_ms(1000);
+ PORTB = 0x4F;
+ delay_ms(1000);
+ PORTB = 0x5B;
+ delay_ms(1000);
+ PORTB = 0x06;
+ delay_ms(1000);
+ PORTB = 0x3F;
+ delay_ms(1000);
  }
 
 }
