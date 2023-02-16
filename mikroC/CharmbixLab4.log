@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"\\Mac\Home\Documents\GitHub\Charmbix-LBYEC3L-Lab4\mikroC\CharmbixLab4.mcppi" -SP"\\Mac\Home\Documents\TERM 7\LBYEC3L\mikroC PRO for PIC\Defs\" -SP"\\Mac\Home\Documents\TERM 7\LBYEC3L\mikroC PRO for PIC\Uses\P16\" -SP"\\Mac\Home\Documents\GitHub\Charmbix-LBYEC3L-Lab4\mikroC\" -IP"\\Mac\Home\Documents\TERM 7\LBYEC3L\mikroC PRO for PIC\Uses\P16\" "CharmbixLab4.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	CharmbixLab4.c
+diagnostics: 42	123	Compiled Successfully	CharmbixLab4.c
+diagnostics: 0	127	All files Compiled in 110 ms	 
+hint: 0	1144	Used RAM (bytes): 2 (1%)  Free RAM (bytes): 350 (99%)	Used RAM (bytes): 2 (1%)  Free RAM (bytes): 350 (99%)
+hint: 0	1144	Used ROM (program words): 245 (3%)  Free ROM (program words): 7947 (97%)	Used ROM (program words): 245 (3%)  Free ROM (program words): 7947 (97%)
+diagnostics: 0	125	Project Linked Successfully	CharmbixLab4.mcppi
+diagnostics: 0	128	Linked in 31 ms	 
+diagnostics: 0	129	Project 'CharmbixLab4.mcppi' completed: 281 ms	 
+diagnostics: 0	103	Finished successfully: 16 Feb 2023, 12:15:39	CharmbixLab4.mcppi
