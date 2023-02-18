@@ -1,74 +1,45 @@
 void main() {
     TRISB = 0x00;
     
+    // This code drives 8 LEDs in a circular pattern.
     while(1)
     {
-        // COUNT UP
-        PORTB = 0x3F;
-        delay_ms(1000);
-        PORTB = 0x06;
-        delay_ms(1000);
-        PORTB = 0x5B;
-        delay_ms(1000);
-        PORTB = 0x4F;
-        delay_ms(1000);
-        PORTB = 0x66;
-        delay_ms(1000);
-        PORTB = 0x6D;
-        delay_ms(1000);
-        PORTB = 0x7D;
-        delay_ms(1000);
-        PORTB = 0x07;
-        delay_ms(1000);
-        PORTB = 0x7F;
-        delay_ms(1000);
-        PORTB = 0x6F;
-        delay_ms(1000);
-        PORTB = 0x77;
-        delay_ms(1000);
-        PORTB = 0x7C;
-        delay_ms(1000);
-        PORTB = 0x39;
-        delay_ms(1000);
-        PORTB = 0x5E;
-        delay_ms(1000);
-        PORTB = 0x79;
-        delay_ms(1000);
-        PORTB = 0x71;
-        delay_ms(1000);
-        // COUNT DOWN
-        PORTB = 0x71;
-        delay_ms(1000);
-        PORTB = 0x79;
-        delay_ms(1000);
-        PORTB = 0x5E;
-        delay_ms(1000);
-        PORTB = 0x39;
-        delay_ms(1000);
-        PORTB = 0x7C;
-        delay_ms(1000);
-        PORTB = 0x77;
-        delay_ms(1000);
-        PORTB = 0x6F;
-        delay_ms(1000);
-        PORTB = 0x7F;
-        delay_ms(1000);
-        PORTB = 0x07;
-        delay_ms(1000);
-        PORTB = 0x7D;
-        delay_ms(1000);
-        PORTB = 0x6D;
-        delay_ms(1000);
-        PORTB = 0x66;
-        delay_ms(1000);
-        PORTB = 0x4F;
-        delay_ms(1000);
-        PORTB = 0x5B;
-        delay_ms(1000);
-        PORTB = 0x06;
-        delay_ms(1000);
-        PORTB = 0x3F;
-        delay_ms(1000);
+        // EVEN
+        PORTB = 0x01;
+        delay_ms(500);
+        PORTB = 0x05;
+        delay_ms(500);
+        PORTB = 0x15;
+        delay_ms(500);
+        PORTB = 0x55;
+        delay_ms(500);
+        PORTB = 0x54;
+        delay_ms(500);
+        PORTB = 0x50;
+        delay_ms(500);
+        PORTB = 0x40;
+        delay_ms(500);
+        PORTB = 0x00;
+        delay_ms(500);
+
+        // ODD
+        PORTB = 0x02;
+        delay_ms(500);
+        PORTB = 0x0A;
+        delay_ms(500);
+        PORTB = 0x2A;
+        delay_ms(500);
+        PORTB = 0xAA;
+        delay_ms(500);
+        PORTB = 0xA8;
+        delay_ms(500);
+        PORTB = 0xA0;
+        delay_ms(500);
+        PORTB = 0x80;
+        delay_ms(500);
+        PORTB = 0x00;
+        delay_ms(500);
+        
     }
 
 }
